@@ -1,0 +1,50 @@
+.card {
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+.card-image {
+	width: 200px;
+	height: 200px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	height: 200px;
+	border-radius: 4px;
+	margin: 30px 0;
+	font-family: 'Raleway' ;
+}
+
+.card img {
+	height: 100%;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;-
+}
+
+.cards::after {
+  content: normal;
+  clear: both;
+  display: table;
+}
+
+
+.card-content h2 {
+	font-size: 18px;
+}
+
+.card-content p {
+	font-size: 16px;
+	color: grey;
+}

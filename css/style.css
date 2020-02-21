@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+@import url('components/button.css');
+@import url('components/card.css');
+
+body {
+	margin: 0;
+	background-image: url(background.jpg);
+	font-family: 'Nunito', sans-serif;
+}	
+
+.banner {
+	margin-right: 0 auto;
+}
+
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #e1f2fb;
+    color: black;
+}
+
+.header h1 {
+    font-size: 80px;
+}
+
+.header p {
+	font-size: 20px;
+}
+
+.containerone {
+		width: 1000px;
+		margin: 0 auto;
+}
+
+h2 {
+	margin-left: 20px;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 150px;
+	margin-right: 40px;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-bar {
+    width: 100%; 
+    background-color: #e1f2fb; 
+    overflow: auto; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: white;
+}
+
+.active {
+    background-color: #e1f2fb;
+}
+
+form {
+    border: 4px solid #f1f1f1;
+}
+
+.news-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: ;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+.fa-arrow-up {
+	width: 30px;
+	height: 30px;
+	position: middle;
+	bottom: 40px;
+	border-radius: 35px;
+	right: 40px;
+	color: white;
+	background-color: #ff9183;
+	border: 3px solid #ff9183;
+	font-size: 30px;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.fa-arrow-up:hover {
+	color: white;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+@media(max-width: 960px) {
+		.container {
+			width: 760px;
+	}
+}
+@media (max-width: 720px) {
+		.container {
+			width: 500px;
+	}
+}
+@media (max-width: 510px) {
+		.container {
+			width: 300px;
+	 }
+}
+
